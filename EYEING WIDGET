@@ -1,0 +1,61 @@
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+  {
+  "width": 550,
+  "height": 550,
+  "symbolsGroups": [
+    {
+      "name": "MICROCHIPS",
+      "originalName": "Indices",
+      "symbols": [
+        {
+          "name": "NASDAQ:NVDA"
+        },
+        {
+          "name": "NASDAQ:AMD"
+        },
+        {
+          "name": "NASDAQ:SMCI"
+        }
+      ]
+    },
+    {
+      "name": "AI",
+      "originalName": "Futures",
+      "symbols": [
+        {
+          "name": "NASDAQ:UPST"
+        },
+        {
+          "name": "NASDAQ:SOFI"
+        }
+      ]
+    },
+    {
+      "name": "CONSUMER DISCRETIONARY",
+      "originalName": "Bonds",
+      "symbols": [
+        {
+          "name": "NYSE:RCL"
+        },
+        {
+          "name": "NASDAQ:JD"
+        },
+        {
+          "name": "NASDAQ:AMZN"
+        }
+      ]
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "colorTheme": "light",
+  "locale": "en",
+  "backgroundColor": "#ffffff"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
